@@ -9,8 +9,7 @@
 
   osaan perusasiat koodauksesta ja testauksesta. Olen hyvä sosiaalisissa tilanteissa tiimityön hyvittämisessä ja sen toiminnan edistämisessä.
 
-### Joku hyvä repo mitä on koulussa tullut tehtyä
-  https://github.com/Gradia-Ohjelmistokehitys-2023/graafiset-k-ytt-liittym-t-RKotiniemi2.git
+
 
   
 
