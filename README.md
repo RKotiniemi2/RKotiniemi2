@@ -1,19 +1,19 @@
-## Terve
+##Tervetuloa profiiliin
 
-### Kuka oon 
+##Kuka olen?
+  Olen Kotiniemi Roope. Pian valmistumassa oleva 3 vuoden ohjelmistokehittäjä ja it-tukihenkilö Jyväskylästä.
+  Olen tehnyt erilaisia it-alan tehtäviä, noin 5 vuoden ajan peruskoulusta nykyhetkeen.
 
-  Oon Kotiniemi Roope, gradialla opiskeleva nuori ohjelmistokehityksessä jolla on perustasolla opeteltu, python ja c#, hieman SQL.
-  Vstest ja NUnit yksikkötestaus työkalut ovat myös tuttuja.
+##Kehitystaito
+  Olen vuosien varrella vapaa-ajalla ja koulussa työskennellyt seuraavien asioiden kanssa(1. eniten)
+    1. C#  2. MYSQL  3. SQLSERVER  4. Python  5. NuNit  6. JavaScript 
 
-### Missä oon hyvä
+##Tutut työkalut
+  Kehitysympäristöt-> Visual studio code, Visual studio 2020 ja 2026, Jetbrains Pycharm, Jetbrain IntelliJ ja MySQL workbench
+  Työt mitä näillä on tehty on yleisesti koulun tekemiä perehdytys tehtäviä. Jetbrains ohjelmat ovat olleet omassa kokeilussa ja niitä ei olla käytetty koulun virallisissa tehtävissä.
 
-  osaan perusasiat koodauksesta ja testauksesta. Olen hyvä sosiaalisissa tilanteissa tiimityön hyvittämisessä ja sen toiminnan edistämisessä.
-
-
-
-  
-
-
-![](https://github-readme-stats.vercel.app/api/top-langs?username=RKotiniemi2&hide=html,scss,stylus,blade,jupyter%20notebook,python,css,shell,batchfile,dockerfile,typescript&theme=algolia&show_icons=true)
-
-Sähköposti, kotiniemiroope@gmail.com
+##Koodaus
+  Kehitetty koodi mitä voi esitellä pitäisi näkyä minun julkisissa repoissa. Jos on lisää kysyttävää minuun saa yhteyttä
+  kotiniemiroope@gmail.com
+  gr302602@gradia.fi
+  www.linkedin.com/in/roope-kotiniemi-46b770355
