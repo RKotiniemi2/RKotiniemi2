@@ -30,5 +30,4 @@ www.linkedin.com/in/roope-kotiniemi-46b770355
 
 
 
-!\[Language Stats](stats/leaderboard\_by\_lines.png)
 
