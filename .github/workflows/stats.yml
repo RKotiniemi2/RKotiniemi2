@@ -1,32 +1,20 @@
-name: GitHub Metrics
+name: Update Language Statistics
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
-  workflow_dispatch: # Allows manual triggering
-  push:
-    branches: ["main", "master"]
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  publish:
+  update-stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+      - uses: StefVuck/Github-Language-Stats@v1.2.0
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ${{ github.repository_owner }}
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: UTC
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-metrics.svg
-          git diff-index --quiet HEAD || git commit -m "Update GitHub profile metrics"
-          git push
+          github_token: ${{ secrets.STATS_TOKEN }}
+          visualization_types: "leaderboard"
+          output_path: "stats"
